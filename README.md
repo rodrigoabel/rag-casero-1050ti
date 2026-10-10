@@ -6,6 +6,15 @@ Un servidor doméstico con [AnythingLLM](https://github.com/Mintplex-Labs/anythi
 
 Para medirlo sin exponer documentos reales, armamos un **corpus ficticio** y un **banco de 163 preguntas** con su respuesta esperada. **Cada respuesta con cifras se revisó a mano**: el puntaje automático no detecta una cifra falsa acompañada de la cita correcta.
 
+Cada experimento cambió una sola cosa y lleva un código (E0, E1…). El gráfico muestra los que se quedaron, en orden:
+
+- **E1c, prompt en español:** el prompt del sistema de fábrica, en inglés, se cambió por uno en español con reglas: responder solo con lo que dicen los documentos, decir «No encontré» si el dato no está y copiar las cifras tal cual. Además, temperatura 0,2.
+- **E3, vectores e5-small:** el modelo que convierte documentos y preguntas en vectores para buscar pasó de `all-MiniLM-L6-v2`, entrenado en inglés, a `multilingual-e5-small`. El fragmento con el dato pasó a llegar al modelo casi siempre.
+- **E8, reformulador:** antes de buscar, un modelo más grande (Qwen 3.6 35B, en otro PC) reescribía la pregunta con las palabras de los documentos. Ayudó al modelo pequeño con las preguntas vagas.
+- **E6, Gemma 4 E4B:** se cambió el modelo que responde, de Qwen 3.5 2B a Gemma 4 E4B, que cabe entero en los 4 GB. Con él, el reformulador ya no ayudaba y se desactivó.
+
+Las preguntas **bien hechas** nombran el documento y usan sus palabras; las **ingenuas** están escritas como se escribe en Telegram («multa?»). El detalle de todos los experimentos está en [docs/RESULTADOS.md](docs/RESULTADOS.md).
+
 ![Cómo mejoró el RAG](docs/graficos/evolucion.png)
 
 ## El resultado
