@@ -2,9 +2,9 @@
 
 **Un RAG casero en español sobre una GTX 1050 Ti de 4 GB: cómo lo medimos, qué lo mejoró y un método para evaluar modelos nuevos.**
 
-Un servidor doméstico con [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) y [Ollama](https://ollama.com) responde preguntas sobre los documentos de una familia: un abogado de concesiones públicas, un psicólogo organizacional, un ingeniero metalurgista del cobre y un ingeniero de software. La pregunta era simple: **¿qué tan buenas son las respuestas de un modelo pequeño en una GPU de 4 GB, y qué las mejora?**
+Un servidor doméstico con [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) y [Ollama](https://ollama.com) responde preguntas sobre los documentos de una familia. La pregunta era simple: **¿qué tan buenas son las respuestas de un modelo pequeño en una GPU de 4 GB, y qué las mejora?**
 
-Para medirlo sin exponer documentos reales, armamos un **corpus ficticio** (un informe jurídico de una concesión vial, un estudio de clima laboral, un procedimiento de fundición, la especificación de un sistema y más) y un **banco de 163 preguntas** con su respuesta esperada. **Cada respuesta con cifras se revisó a mano**: el puntaje automático no detecta una cifra falsa acompañada de la cita correcta.
+Para medirlo sin exponer documentos reales, armamos un **corpus ficticio** y un **banco de 163 preguntas** con su respuesta esperada. **Cada respuesta con cifras se revisó a mano**: el puntaje automático no detecta una cifra falsa acompañada de la cita correcta.
 
 ![Cómo mejoró el RAG](docs/graficos/evolucion.png)
 
@@ -92,4 +92,4 @@ Todo lo publicado sale del corpus ficticio y del espacio de pruebas `rag-eval`, 
 
 ## Licencia
 
-[MIT](LICENSE), para el código, el corpus, las preguntas y los resultados. Las pruebas, las herramientas y esta documentación se hicieron con ayuda de Claude Code.
+[MIT](LICENSE)
