@@ -1,0 +1,3 @@
+{"descripcion": "E6c: modelo de respuesta gemma4:e4b (Q4_K_M) solo en rag-eval, variante solo texto y entera en la GPU (gemma4:e4b-texto-gpu: sin mmproj, con el DRAFT, num_gpu 99; usa 3,7 de 4 GB). El resto sigue con qwen3.5:2b",
+ "workspaces": ["rag-eval"],
+ "cambios": {"chatModel": "gemma4:e4b-texto-gpu"}}

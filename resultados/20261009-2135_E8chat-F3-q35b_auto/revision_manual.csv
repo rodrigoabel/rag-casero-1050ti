@@ -1,0 +1,11 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+SPR-05;1;OK;ALUCINA;«lotes tuvo más bugs (6.0) que despachos (8.0)»: contradice sus propias cifras; es despachos
+SPR-05;2;FALLA;ALUCINA;«lotes»: el gráfico dice despachos (8)
+CRS-07;1;FALLA;ALUCINA;«380 UTM.»: es lo acumulado, no el umbral (1.200 UTM en 12 meses)
+CRS-07;2;FALLA;ALUCINA;Igual que la repetición 1
+CRS-16;1;FALLA;PARCIAL;Da el vencimiento (marzo de 2056), no el plazo (32 años); criterio de la línea base
+CRS-16;2;FALLA;PARCIAL;Igual que la repetición 1
+FUN-08;1;FALLA;ALUCINA;«13.800 toneladas» como promedio: es septiembre (41.800/3 ≈ 13.933 t)
+CON-02;2;PARCIAL;PARCIAL;PostgreSQL 16 correcto, pero detalle falso: la reformulación agregó «según la presentación» y responde otro servidor («api.condor.example»); es «tórtola»
+X-02;1;PARCIAL;PARCIAL;Detalle falso: etiqueta la captura de azufre (95,8 %) como «Recuperación»
+X-02;2;PARCIAL;PARCIAL;Igual que la repetición 1

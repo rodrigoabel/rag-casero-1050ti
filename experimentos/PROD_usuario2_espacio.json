@@ -1,0 +1,11 @@
+{"descripcion": "Producción: espacio-usuario2 (archivos de Usuario2) con la misma configuración validada de prueba (E1c + topN 10 + reranker), para máxima precisión en los espacios de archivos de usuarios. Regla del usuario (10/10): solo los espacios de notas de Obsidian usan topN 4",
+ "workspaces": ["espacio-usuario2"],
+ "cambios": {
+  "openAiPrompt": "@E1c_prompt_sistema_es.txt",
+  "openAiTemp": 0.2,
+  "queryRefusalResponse": "@E1_respuesta_rechazo_es.txt",
+  "topN": 10,
+  "similarityThreshold": 0.2,
+  "vectorSearchMode": "rerank"
+ }
+}

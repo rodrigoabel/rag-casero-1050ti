@@ -1,0 +1,13 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+SPR-08;1;FALLA;PARCIAL;No calcula el porcentaje: da 38 puntos de 45 comprometidos (≈ 84 %)
+SPR-08;2;FALLA;PARCIAL;Igual que la repetición 1
+CRS-16;1;FALLA;PARCIAL;Da el vencimiento (marzo de 2056), no el plazo (32 años), y en castellano (criterio de la línea base)
+CRS-16;2;FALLA;PARCIAL;Igual que la repetición 1
+FUN-02;1;OK;PARCIAL;Da el valor (95,8 %) y la meta (96,5 %), pero no dice si se cumplió y la llama «meta Q4» (criterio de Gemma E2B)
+FUN-02;2;OK;PARCIAL;Igual que la repetición 1
+FUN-08;1;FALLA;PARCIAL;Lista bien los tres meses (13.700, 14.300 y 13.800 t), pero no calcula el promedio (13.933 t)
+FUN-08;2;FALLA;PARCIAL;Igual que la repetición 1
+FORM-04a;1;FALLA;OK;A «¿cómo está el clima?» resume bien: peor Reconocimiento (2,7), mejor Compromiso (4,0), eNPS +12; la esperada «3,1» es un artefacto del banco (criterio de E8)
+FORM-04a;2;FALLA;OK;Igual que la repetición 1
+FORM-08a;1;FALLA;OK;A «¿qué es el ITC?» da la definición correcta (criterio de la línea base)
+FORM-08a;2;FALLA;OK;Igual que la repetición 1

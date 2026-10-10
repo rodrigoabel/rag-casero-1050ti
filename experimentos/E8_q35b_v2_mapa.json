@@ -1,0 +1,359 @@
+{
+ "meta": {
+  "fecha": "2026-10-09T14:14:52",
+  "motor": "openai",
+  "modelo": "Qwen3.6-35B-A3B-Q5-XL",
+  "url": "http://localhost:8080/v1",
+  "mapa": true,
+  "reglas": "v2",
+  "hoy": "2026-10-09",
+  "temperatura": 0.2,
+  "sistema": "Tu tarea es completar la pregunta de un usuario para buscarla en sus documentos, cambiándola lo menos posible. Con la pregunta completada se buscan los fragmentos más parecidos y otro modelo responde con ellos.\n\nReglas:\n1. Conserva las palabras del usuario: nombres, cifras, términos técnicos y siglas. Puedes corregir la ortografía y completar la frase.\n2. Pregunta exactamente por lo mismo. No la amplíes a un tema general ni la reemplaces por el título de una sección.\n3. Si la pregunta da por cierto un dato (por ejemplo, una cifra), no lo afirmes: pregunta por ese dato de forma neutra.\n4. Agrega el nombre de un documento del mapa solo si las palabras de la pregunta coinciden claramente con el título o las secciones de un único documento. Si hay dudas, no agregues ningún documento.\n5. No desarrolles una sigla si su significado no aparece en el mapa.\n6. Cambia las fechas relativas por fechas absolutas. Hoy es viernes 9 de octubre de 2026. El mes pasado es septiembre de 2026; el trimestre pasado, el tercer trimestre (Q3) de 2026; el año pasado, 2025.\n7. Escribe una sola pregunta, en español. No agregues instrucciones de formato ni frases como «si no aparece, dilo».\n8. Responde solo con la pregunta reescrita, sin comillas ni explicaciones."
+ },
+ "preguntas": {
+  "FORM-01a": {
+   "workspace": "mirag",
+   "original": "¿y el caché?",
+   "reformulada": "¿Cuáles son los requisitos no funcionales y la seguridad de la Plataforma Cóndor?",
+   "crudo": "¿Cuáles son los requisitos no funcionales y la seguridad de la Plataforma Cóndor?",
+   "segundos": 3.12,
+   "error": ""
+  },
+  "FORM-02a": {
+   "workspace": "mirag",
+   "original": "multa?",
+   "reformulada": "¿Cuáles son el régimen tarifario y el régimen de multas establecidos en el contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava?",
+   "crudo": "¿Cuáles son el régimen tarifario y el régimen de multas establecidos en el contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava?",
+   "segundos": 1.58,
+   "error": ""
+  },
+  "FORM-03a": {
+   "workspace": "mirag",
+   "original": "cuéntame del horno",
+   "reformulada": "¿Cuáles son los parámetros de operación, la secuencia de sangrado y las emergencias del procedimiento operativo PO-FLS-014 para el sangrado de mata y escoria del horno flash de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuáles son los parámetros de operación, la secuencia de sangrado y las emergencias del procedimiento operativo PO-FLS-014 para el sangrado de mata y escoria del horno flash de la Fundición Los Arrayanes?",
+   "segundos": 1.74,
+   "error": ""
+  },
+  "FORM-04a": {
+   "workspace": "mirag",
+   "original": "¿cómo está el clima?",
+   "reformulada": "¿Cuáles son los resultados por dimensión y por área del Informe de clima laboral 2026 de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuáles son los resultados por dimensión y por área del Informe de clima laboral 2026 de la Fundición Los Arrayanes?",
+   "segundos": 1.45,
+   "error": ""
+  },
+  "FORM-05a": {
+   "workspace": "mirag",
+   "original": "dame todo lo de la concesión",
+   "reformulada": "¿Qué información se proporciona sobre la concesión de la Ruta Costera Sur en el informe jurídico y la minuta de reunión del 20 de septiembre de 2026?",
+   "crudo": "¿Qué información se proporciona sobre la concesión de la Ruta Costera Sur en el informe jurídico y la minuta de reunión del 20 de septiembre de 2026?",
+   "segundos": 1.65,
+   "error": ""
+  },
+  "FORM-06a": {
+   "workspace": "mirag",
+   "original": "¿qué pasó con la planta de ácido?",
+   "reformulada": "¿Qué información se menciona sobre la planta de ácido en los documentos?",
+   "crudo": "¿Qué información se menciona sobre la planta de ácido en los documentos?",
+   "segundos": 1.31,
+   "error": ""
+  },
+  "FORM-07a": {
+   "workspace": "mirag",
+   "original": "¿quién es Tomás?",
+   "reformulada": "¿Quién es Tomás?",
+   "crudo": "¿Quién es Tomás?",
+   "segundos": 1.16,
+   "error": ""
+  },
+  "FORM-08a": {
+   "workspace": "mirag",
+   "original": "¿qué es el ITC?",
+   "reformulada": "¿Qué es el ITC?",
+   "crudo": "¿Qué es el ITC?",
+   "segundos": 1.18,
+   "error": ""
+  },
+  "ING-01": {
+   "workspace": "mirag",
+   "original": "cuanto dura la concesion?",
+   "reformulada": "¿Cuáles son los plazos del contrato de la concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava?",
+   "crudo": "¿Cuáles son los plazos del contrato de la concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava?",
+   "segundos": 1.45,
+   "error": ""
+  },
+  "ING-02": {
+   "workspace": "mirag",
+   "original": "monto garantia explotacion",
+   "reformulada": "¿Cuál es el monto de la garantía de explotación en el contrato de concesión «Ruta Costera Sur»?",
+   "crudo": "¿Cuál es el monto de la garantía de explotación en el contrato de concesión «Ruta Costera Sur»?",
+   "segundos": 1.37,
+   "error": ""
+  },
+  "ING-03": {
+   "workspace": "mirag",
+   "original": "q multa hay si no cumplen el estado del pavimento",
+   "reformulada": "¿Cuál es el régimen de multas por incumplimiento de los niveles de servicio, como el estado del pavimento, en el contrato de concesión «Ruta Costera Sur»?",
+   "crudo": "¿Cuál es el régimen de multas por incumplimiento de los niveles de servicio, como el estado del pavimento, en el contrato de concesión «Ruta Costera Sur»?",
+   "segundos": 1.55,
+   "error": ""
+  },
+  "ING-04": {
+   "workspace": "mirag",
+   "original": "cuándo pasa a ser incumplimiento grave?",
+   "reformulada": "¿En qué casos se considera incumplimiento grave según el régimen de multas del contrato de concesión «Ruta Costera Sur»?",
+   "crudo": "¿En qué casos se considera incumplimiento grave según el régimen de multas del contrato de concesión «Ruta Costera Sur»?",
+   "segundos": 1.49,
+   "error": ""
+  },
+  "ING-05": {
+   "workspace": "mirag",
+   "original": "qué pasó con el derrumbe del km 47",
+   "reformulada": "¿Qué información se entrega sobre el riesgo geotécnico en el km 47 en el informe jurídico del contrato de concesión «Ruta Costera Sur»?",
+   "crudo": "¿Qué información se entrega sobre el riesgo geotécnico en el km 47 en el informe jurídico del contrato de concesión «Ruta Costera Sur»?",
+   "segundos": 1.56,
+   "error": ""
+  },
+  "ING-06": {
+   "workspace": "mirag",
+   "original": "cuánto tienen para terminar las obras?",
+   "reformulada": "¿Cuáles son los plazos del contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava, para terminar las obras?",
+   "crudo": "¿Cuáles son los plazos del contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava, para terminar las obras?",
+   "segundos": 1.49,
+   "error": ""
+  },
+  "ING-07": {
+   "workspace": "mirag",
+   "original": "por qué le dieron 50 años a la concesionaria?",
+   "reformulada": "¿Cuáles son los plazos del contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava, según el informe jurídico?",
+   "crudo": "¿Cuáles son los plazos del contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava, según el informe jurídico?",
+   "segundos": 1.49,
+   "error": ""
+  },
+  "ING-08": {
+   "workspace": "mirag",
+   "original": "hasta cuándo pidieron la prórroga del convenio?",
+   "reformulada": "¿Hasta cuándo se solicitó la prórroga del convenio en el informe jurídico del contrato de concesión «Ruta Costera Sur»?",
+   "crudo": "¿Hasta cuándo se solicitó la prórroga del convenio en el informe jurídico del contrato de concesión «Ruta Costera Sur»?",
+   "segundos": 1.51,
+   "error": ""
+  },
+  "ING-09": {
+   "workspace": "mirag",
+   "original": "cuándo nos volvemos a juntar por la concesión?",
+   "reformulada": "¿Cuál es la fecha de la próxima reunión de la concesión Ruta Costera Sur?",
+   "crudo": "¿Cuál es la fecha de la próxima reunión de la concesión Ruta Costera Sur?",
+   "segundos": 1.34,
+   "error": ""
+  },
+  "ING-10": {
+   "workspace": "mirag",
+   "original": "cuánto se demora el panel en recomendar?",
+   "reformulada": "¿cuánto tiempo demora el panel en recomendar?",
+   "crudo": "¿cuánto tiempo demora el panel en recomendar?",
+   "segundos": 1.29,
+   "error": ""
+  },
+  "ING-11": {
+   "workspace": "mirag",
+   "original": "cuánta gente contestó la encuesta?",
+   "reformulada": "¿Cuántas personas respondieron la encuesta en el Informe de clima laboral 2026 de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuántas personas respondieron la encuesta en el Informe de clima laboral 2026 de la Fundición Los Arrayanes?",
+   "segundos": 1.45,
+   "error": ""
+  },
+  "ING-12": {
+   "workspace": "mirag",
+   "original": "qué salió peor en clima?",
+   "reformulada": "¿Cuáles fueron los resultados por dimensión y por área en el Informe de clima laboral 2026 de la Fundición Los Arrayanes, y qué dimensiones o áreas tuvieron los peores resultados?",
+   "crudo": "¿Cuáles fueron los resultados por dimensión y por área en el Informe de clima laboral 2026 de la Fundición Los Arrayanes, y qué dimensiones o áreas tuvieron los peores resultados?",
+   "segundos": 1.68,
+   "error": ""
+  },
+  "ING-13": {
+   "workspace": "mirag",
+   "original": "qué área está peor con el reconocimiento?",
+   "reformulada": "¿Qué área tiene los peores resultados en reconocimiento según el Informe de clima laboral 2026 de la Fundición Los Arrayanes?",
+   "crudo": "¿Qué área tiene los peores resultados en reconocimiento según el Informe de clima laboral 2026 de la Fundición Los Arrayanes?",
+   "segundos": 1.52,
+   "error": ""
+  },
+  "ING-14": {
+   "workspace": "mirag",
+   "original": "qué proponen para que la gente se sienta reconocida?",
+   "reformulada": "¿Qué recomendaciones se plantean en el Informe de clima laboral 2026 de la Fundición Los Arrayanes para que la gente se sienta reconocida?",
+   "crudo": "¿Qué recomendaciones se plantean en el Informe de clima laboral 2026 de la Fundición Los Arrayanes para que la gente se sienta reconocida?",
+   "segundos": 1.53,
+   "error": ""
+  },
+  "ING-15": {
+   "workspace": "mirag",
+   "original": "por qué no aparecen algunos equipos en el informe?",
+   "reformulada": "¿Por qué no aparecen algunos equipos en el informe de clima laboral 2026 de la Fundición Los Arrayanes?",
+   "crudo": "¿Por qué no aparecen algunos equipos en el informe de clima laboral 2026 de la Fundición Los Arrayanes?",
+   "segundos": 1.4,
+   "error": ""
+  },
+  "ING-16": {
+   "workspace": "mirag",
+   "original": "cuántos vinieron al taller?",
+   "reformulada": "¿Cuántos asistentes hubo en el acta del taller de liderazgo para supervisores de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuántos asistentes hubo en el acta del taller de liderazgo para supervisores de la Fundición Los Arrayanes?",
+   "segundos": 1.42,
+   "error": ""
+  },
+  "ING-17": {
+   "workspace": "mirag",
+   "original": "cuándo es la próxima sesión del taller?",
+   "reformulada": "¿Cuándo es la próxima sesión del taller de liderazgo para supervisores de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuándo es la próxima sesión del taller de liderazgo para supervisores de la Fundición Los Arrayanes?",
+   "segundos": 1.36,
+   "error": ""
+  },
+  "ING-18": {
+   "workspace": "mirag",
+   "original": "y el enps?",
+   "reformulada": "¿Cuáles son los niveles de servicio y el régimen de multas establecidos en el contrato de concesión «Ruta Costera Sur»?",
+   "crudo": "¿Cuáles son los niveles de servicio y el régimen de multas establecidos en el contrato de concesión «Ruta Costera Sur»?",
+   "segundos": 1.48,
+   "error": ""
+  },
+  "ING-19": {
+   "workspace": "mirag",
+   "original": "temperatura escoria?",
+   "reformulada": "¿Cuál es la temperatura de la escoria en el procedimiento operativo PO-FLS-014 de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuál es la temperatura de la escoria en el procedimiento operativo PO-FLS-014 de la Fundición Los Arrayanes?",
+   "segundos": 1.45,
+   "error": ""
+  },
+  "ING-20": {
+   "workspace": "mirag",
+   "original": "a qué distancia hay que pararse de la canaleta cuando se sangra?",
+   "reformulada": "¿A qué distancia hay que pararse de la canaleta cuando se sangra según el procedimiento operativo PO-FLS-014 de la Fundición Los Arrayanes?",
+   "crudo": "¿A qué distancia hay que pararse de la canaleta cuando se sangra según el procedimiento operativo PO-FLS-014 de la Fundición Los Arrayanes?",
+   "segundos": 1.58,
+   "error": ""
+  },
+  "ING-21": {
+   "workspace": "mirag",
+   "original": "qué hago si se perfora el crisol?",
+   "reformulada": "¿Qué hacer si se perfora el crisol en el procedimiento operativo PO-FLS-014 de sangrado de mata y escoria del horno flash de la Fundición Los Arrayanes?",
+   "crudo": "¿Qué hacer si se perfora el crisol en el procedimiento operativo PO-FLS-014 de sangrado de mata y escoria del horno flash de la Fundición Los Arrayanes?",
+   "segundos": 1.66,
+   "error": ""
+  },
+  "ING-22": {
+   "workspace": "mirag",
+   "original": "con cuánta presión va el oxígeno para abrir la piquera?",
+   "reformulada": "¿Con cuánta presión va el oxígeno para abrir la piquera en el procedimiento operativo PO-FLS-014 de sangrado de mata y escoria del horno flash de la Fundición Los Arrayanes?",
+   "crudo": "¿Con cuánta presión va el oxígeno para abrir la piquera en el procedimiento operativo PO-FLS-014 de sangrado de mata y escoria del horno flash de la Fundición Los Arrayanes?",
+   "segundos": 1.69,
+   "error": ""
+  },
+  "ING-23": {
+   "workspace": "mirag",
+   "original": "cómo nos fue en recuperación el trimestre pasado?",
+   "reformulada": "¿Cuáles fueron los resultados de recuperación en el tercer trimestre de 2026 según la presentación de indicadores de proceso de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuáles fueron los resultados de recuperación en el tercer trimestre de 2026 según la presentación de indicadores de proceso de la Fundición Los Arrayanes?",
+   "segundos": 1.53,
+   "error": ""
+  },
+  "ING-24": {
+   "workspace": "mirag",
+   "original": "cumplimos la meta de azufre?",
+   "reformulada": "¿Se cumplió la meta de azufre en los indicadores de proceso del tercer trimestre de 2026 de la Fundición Los Arrayanes?",
+   "crudo": "¿Se cumplió la meta de azufre en los indicadores de proceso del tercer trimestre de 2026 de la Fundición Los Arrayanes?",
+   "segundos": 1.54,
+   "error": ""
+  },
+  "ING-25": {
+   "workspace": "mirag",
+   "original": "cuántos ánodos se hicieron en agosto?",
+   "reformulada": "¿Cuántos ánodos se hicieron en agosto de 2026?",
+   "crudo": "¿Cuántos ánodos se hicieron en agosto de 2026?",
+   "segundos": 1.29,
+   "error": ""
+  },
+  "ING-26": {
+   "workspace": "mirag",
+   "original": "qué mantención viene en noviembre?",
+   "reformulada": "¿Qué mantención viene en noviembre en el contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava?",
+   "crudo": "¿Qué mantención viene en noviembre en el contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava?",
+   "segundos": 1.53,
+   "error": ""
+  },
+  "ING-27": {
+   "workspace": "mirag",
+   "original": "disponibilidad del flash el trimestre pasado",
+   "reformulada": "¿Cuál fue la disponibilidad del horno flash en el tercer trimestre de 2026?",
+   "crudo": "¿Cuál fue la disponibilidad del horno flash en el tercer trimestre de 2026?",
+   "segundos": 1.31,
+   "error": ""
+  },
+  "ING-28": {
+   "workspace": "mirag",
+   "original": "puerto del gateway?",
+   "reformulada": "¿Cuál es el puerto del gateway en la Especificación técnica de la Plataforma Cóndor?",
+   "crudo": "¿Cuál es el puerto del gateway en la Especificación técnica de la Plataforma Cóndor?",
+   "segundos": 1.38,
+   "error": ""
+  },
+  "ING-29": {
+   "workspace": "mirag",
+   "original": "cuánto se guardan los logs de auditoría?",
+   "reformulada": "¿Cuál es el plazo de conservación de los logs de auditoría según el procedimiento operativo PO-FLS-014 de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuál es el plazo de conservación de los logs de auditoría según el procedimiento operativo PO-FLS-014 de la Fundición Los Arrayanes?",
+   "segundos": 1.55,
+   "error": ""
+  },
+  "ING-30": {
+   "workspace": "mirag",
+   "original": "cobertura del sprint?",
+   "reformulada": "¿Cuál es la cobertura del Sprint 42 del equipo Cóndor?",
+   "crudo": "¿Cuál es la cobertura del Sprint 42 del equipo Cóndor?",
+   "segundos": 1.28,
+   "error": ""
+  },
+  "ING-31": {
+   "workspace": "obsidian",
+   "original": "a qué hora quedó el backup de la base?",
+   "reformulada": "¿A qué hora quedó el backup de la base de datos Postgres?",
+   "crudo": "¿A qué hora quedó el backup de la base de datos Postgres?",
+   "segundos": 1.14,
+   "error": ""
+  },
+  "ING-32": {
+   "workspace": "obsidian",
+   "original": "cuánta gente cabe en la sala ámbar?",
+   "reformulada": "¿Cuál es la capacidad de personas de la Sala Ámbar?",
+   "crudo": "¿Cuál es la capacidad de personas de la Sala Ámbar?",
+   "segundos": 1.14,
+   "error": ""
+  },
+  "ING-33": {
+   "workspace": "mirag",
+   "original": "cuánto cuesta cóndor?",
+   "reformulada": "¿Cuál es el costo de la Plataforma Cóndor?",
+   "crudo": "¿Cuál es el costo de la Plataforma Cóndor?",
+   "segundos": 1.23,
+   "error": ""
+  },
+  "ING-34": {
+   "workspace": "mirag",
+   "original": "a cuántos grados se moldean los ánodos?",
+   "reformulada": "¿A cuántos grados se moldean los ánodos?",
+   "crudo": "¿A cuántos grados se moldean los ánodos?",
+   "segundos": 1.27,
+   "error": ""
+  },
+  "ING-35": {
+   "workspace": "mirag",
+   "original": "cuánta rotación tuvo la fundición este año?",
+   "reformulada": "¿Cuál fue la rotación de personal en la Fundición Los Arrayanes en 2026?",
+   "crudo": "¿Cuál fue la rotación de personal en la Fundición Los Arrayanes en 2026?",
+   "segundos": 1.39,
+   "error": ""
+  }
+ }
+}

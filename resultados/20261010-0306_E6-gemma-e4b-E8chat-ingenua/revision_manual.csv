@@ -1,0 +1,11 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FORM-08a;1;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+FORM-08a;2;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+ING-11;1;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-11;2;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+FORM-04a;1;FALLA;OK;A «¿cómo está el clima?» resume bien: peor Reconocimiento (2,7), mejor Compromiso (4,0), eNPS +12; la esperada «3,1» es un artefacto del banco (criterio de E8)
+FORM-04a;2;FALLA;OK;Igual que la repetición 1
+FORM-05a;1;PARCIAL;PARCIAL;Trae 32 años y 15/3/2024 pero no los 48 meses de construcción; además lista la fecha de carga del archivo (metadato «publicado el 10/9/2026, 3:42:16 AM»)
+FORM-05a;2;OK;OK_CON_RUIDO;Trae 32 años, 48 meses y 15/3/2024 con cifras correctas, pero lista la fecha de carga del archivo (metadato «publicado el 10/9/2026, 3:42:16 AM»)
+ING-24;1;OK;PARCIAL;Da el valor (95,8 %) y la meta (96,5 %), pero no responde «no» a «cumplimos la meta?» (mismo criterio que FUN-02; corregido el 10/10 al revisar E6d)
+ING-24;2;OK;PARCIAL;Igual que la repetición 1

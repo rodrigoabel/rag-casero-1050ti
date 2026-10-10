@@ -1,0 +1,6 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FUN-08;1;FALLA;ALUCINA;«13.800 toneladas» como promedio: es septiembre (lo correcto es 41.800/3 ≈ 13.933 t); mismo error que en la línea base
+SPR-08;1;FALLA;PARCIAL;Da los datos correctos (38 de 45 puntos) pero no el porcentaje; ya no inventa «38 %»
+SPR-08;2;FALLA;PARCIAL;Igual que la repetición 1
+CLI-05;2;PARCIAL;PARCIAL;Área correcta (convertidores), pero detalle falso: «(2,7)» es el promedio de la dimensión; convertidores tiene 2,6
+CRS-04;2;OK;OK_CON_RUIDO;Detalle falso: tarifas en UF (son en pesos chilenos). La reformulación amplió la pregunta a todo el régimen tarifario

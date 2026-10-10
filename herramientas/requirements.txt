@@ -1,0 +1,10 @@
+# Para generar y verificar el corpus (mismas versiones de conversores que /opt/pdf2md en el servidor)
+python-docx==1.2.0
+python-pptx==1.0.2
+fpdf2
+Pillow
+markitdown[docx,pptx]==0.1.8
+pymupdf==1.28.2
+pymupdf4llm==1.28.2
+# rag_eval.py NO necesita nada de esto: usa solo la biblioteca estándar.
+matplotlib  # graficos.py

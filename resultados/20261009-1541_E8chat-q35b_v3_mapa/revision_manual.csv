@@ -1,0 +1,11 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FORM-08a;1;FALLA;OK;"Define bien la sigla; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+FORM-08a;2;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+ING-04;1;OK;OK_CON_RUIDO;"Detalle falso: presenta como condiciones del incumplimiento grave las multas por baches e informes y el sector de Caleta Brava (eso explica las 380 UTM acumuladas); la condición es superar 1.200 UTM en 12 meses"
+ING-04;2;OK;OK_CON_RUIDO;"Detalle falso: restringe qué multas cuentan para el incumplimiento grave; cuentan todas las acumuladas"
+ING-06;1;FALLA;ALUCINA;Cifra de al lado: responde el vencimiento de la concesión (marzo de 2056) a una pregunta por el plazo para terminar las obras (48 meses)
+ING-06;2;FALLA;ALUCINA;Cifra de al lado: responde el vencimiento de la concesión (marzo de 2056) a una pregunta por el plazo para terminar las obras (48 meses)
+ING-13;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-13;2;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-29;1;FALLA;ALUCINA;"Falso para la pregunta del usuario: el reformulador la llevó al procedimiento del horno (registros: 5 años); los logs de auditoría de Cóndor se guardan 400 días"
+ING-29;2;FALLA;ALUCINA;"Falso para la pregunta del usuario: el reformulador la llevó al procedimiento del horno (registros: 5 años); los logs de auditoría de Cóndor se guardan 400 días"

@@ -1,0 +1,9 @@
+{
+ "descripcion": "E1a ajustado: sin la regla 8 (etiqueta de documento; el bot y la web ya muestran las fuentes) y regla 4 que exige el mismo término de la pregunta. Ejemplo genérico, no tomado del banco de preguntas",
+ "workspaces": ["prueba", "notas-obsidian"],
+ "cambios": {
+  "openAiPrompt": "@E1c_prompt_sistema_es.txt",
+  "openAiTemp": 0.2,
+  "queryRefusalResponse": "@E1_respuesta_rechazo_es.txt"
+ }
+}

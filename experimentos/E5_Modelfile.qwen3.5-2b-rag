@@ -1,0 +1,10 @@
+# Variante de qwen3.5:2b para RAG: muestreo más conservador para copiar cifras y códigos tal cual.
+# Crear en el servidor (solo cuando se ejecute el experimento E5):
+#   ollama create qwen3.5:2b-rag -f E5_Modelfile.qwen3.5-2b-rag
+# Nota: AnythingLLM envía su propia temperatura (la del workspace) y num_ctx; lo que este archivo cambia
+# de verdad es presence_penalty, top_p y top_k, que AnythingLLM no envía.
+FROM qwen3.5:2b
+PARAMETER temperature 0.2
+PARAMETER top_p 0.8
+PARAMETER top_k 20
+PARAMETER presence_penalty 0

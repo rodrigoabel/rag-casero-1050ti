@@ -1,0 +1,12 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FORM-01a;1;OK;FALLA;"La reformulación quitó «caché»: responde requisitos no funcionales y seguridad; el «15 minutos» que encontró el puntaje es el RPO, no el TTL de la caché (900 s)"
+FORM-01a;2;OK;FALLA;"La reformulación quitó «caché»: responde requisitos no funcionales y seguridad; el «15 minutos» que encontró el puntaje es el RPO, no el TTL de la caché (900 s)"
+FORM-08a;1;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+FORM-08a;2;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+ING-11;1;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-11;2;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-15;1;FALLA;ALUCINA;Da una razón equivocada: los equipos no aparecen para resguardar el anonimato (grupos de menos de 5 personas), no por los turnos de noche
+ING-18;1;OK;FALLA;"La reformulación cambió «y el enps?» por los niveles de servicio y multas de la concesión; el puntaje encontró «12» en «12 meses»"
+ING-18;2;OK;FALLA;"La reformulación cambió «y el enps?» por los niveles de servicio y multas de la concesión; el puntaje encontró «12» en «12 meses»"
+ING-29;1;FALLA;ALUCINA;"Falso para la pregunta del usuario: el reformulador la llevó al procedimiento del horno (registros: 5 años); los logs de auditoría de Cóndor se guardan 400 días"
+ING-29;2;FALLA;ALUCINA;"Falso para la pregunta del usuario: el reformulador la llevó al procedimiento del horno (registros: 5 años); los logs de auditoría de Cóndor se guardan 400 días"

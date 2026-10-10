@@ -1,0 +1,11 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FORM-03a;1;FALLA;PARCIAL;Describe bien el procedimiento, pero no da el rango de temperatura buscado (criterio de E1e)
+FORM-03a;2;FALLA;PARCIAL;Describe bien el procedimiento, pero no da el rango de temperatura buscado (criterio de E1e)
+FORM-04a;2;FALLA;OK_CON_RUIDO;"Resumen correcto, pero detalle falso: «puntaje promedio general 3,8» es el de Liderazgo; no hay promedio general"
+FORM-08a;1;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+FORM-08a;2;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+ING-11;2;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-12;1;OK;OK_CON_RUIDO;"Detalle falso: pone Comunicación interna (3,1) como segunda peor; es Carga de trabajo (2,9). Mezcla el 2,6 del área con la dimensión"
+ING-12;2;OK;OK_CON_RUIDO;"Detalle falso: pone Comunicación interna (3,1) como segunda peor; es Carga de trabajo (2,9). Mezcla el 2,6 del área con la dimensión"
+ING-13;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-13;2;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)

@@ -1,0 +1,8 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FORM-08a;1;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+FORM-08a;2;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+ING-01;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta cuánto dura)
+ING-13;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-13;2;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-17;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta cuándo)
+ING-19;1;OK;OK_CON_RUIDO;Detalle falso: inventa «el punto de fusión de la mata (aproximadamente 1.220 °C)»

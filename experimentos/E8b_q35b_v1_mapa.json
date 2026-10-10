@@ -1,0 +1,143 @@
+{
+ "meta": {
+  "fecha": "2026-10-09T15:31:07",
+  "motor": "openai",
+  "modelo": "Qwen3.6-35B-A3B-Q5-XL",
+  "url": "http://localhost:8080/v1",
+  "mapa": true,
+  "reglas": "v1",
+  "hoy": "2026-10-09",
+  "temperatura": 0.2,
+  "sistema": "Tu tarea es reescribir la pregunta de un usuario para buscarla en sus documentos. Con la pregunta reescrita se buscan los fragmentos más parecidos y otro modelo responde con ellos.\n\nReglas:\n1. Conserva exactamente lo que el usuario quiere saber. No agregues datos, cifras, nombres ni supuestos que el usuario no dio.\n2. Si la pregunta da por cierto un dato (por ejemplo, una cifra), no lo afirmes: pregunta por ese dato de forma neutra.\n3. Si el mapa de documentos muestra a qué documento o sección se refiere la pregunta, nombra ese documento con su título tal como aparece en el mapa. Si no está claro, no nombres ningún documento.\n4. Usa términos completos y precisos: desarrolla las siglas y corrige la ortografía.\n5. Cambia las fechas relativas por fechas absolutas. Hoy es viernes 9 de octubre de 2026. El mes pasado es septiembre de 2026; el trimestre pasado, el tercer trimestre (Q3) de 2026; el año pasado, 2025.\n6. Si la pregunta ya es clara y completa, cámbiala lo menos posible.\n7. Escribe una sola pregunta, en español, completa y breve. No agregues instrucciones de formato ni frases como «si no aparece, dilo».\n8. Responde solo con la pregunta reescrita, sin comillas ni explicaciones."
+ },
+ "preguntas": {
+  "ING-36": {
+   "workspace": "mirag",
+   "original": "qué base de datos usa cóndor y en qué servidor está?",
+   "reformulada": "¿Qué base de datos utiliza la Plataforma Cóndor y en qué servidor está alojada?",
+   "crudo": "¿Qué base de datos utiliza la Plataforma Cóndor y en qué servidor está alojada?",
+   "segundos": 1.36,
+   "error": ""
+  },
+  "ING-37": {
+   "workspace": "mirag",
+   "original": "cuántas réplicas hay en prod?",
+   "reformulada": "¿Cuántas réplicas hay en el entorno de producción de la Plataforma Cóndor?",
+   "crudo": "¿Cuántas réplicas hay en el entorno de producción de la Plataforma Cóndor?",
+   "segundos": 1.34,
+   "error": ""
+  },
+  "ING-38": {
+   "workspace": "mirag",
+   "original": "cuándo es el code freeze?",
+   "reformulada": "¿Cuál es la fecha del code freeze en la retrospectiva del Sprint 42 del equipo Cóndor?",
+   "crudo": "¿Cuál es la fecha del code freeze en la retrospectiva del Sprint 42 del equipo Cóndor?",
+   "segundos": 1.47,
+   "error": ""
+  },
+  "ING-39": {
+   "workspace": "mirag",
+   "original": "por qué está trabada la CON-322?",
+   "reformulada": "¿Cuál es la causa del bloqueo o trabamiento del código de control CON-322?",
+   "crudo": "¿Cuál es la causa del bloqueo o trabamiento del código de control CON-322?",
+   "segundos": 1.41,
+   "error": ""
+  },
+  "ING-40": {
+   "workspace": "mirag",
+   "original": "garantia de construccion cuanto era y en cuantas boletas",
+   "reformulada": "¿Cuál era el monto de la garantía de construcción y en cuántas boletas se encontraba constituida según el informe jurídico del contrato de concesión «Ruta Costera Sur»?",
+   "crudo": "¿Cuál era el monto de la garantía de construcción y en cuántas boletas se encontraba constituida según el informe jurídico del contrato de concesión «Ruta Costera Sur»?",
+   "segundos": 1.54,
+   "error": ""
+  },
+  "ING-41": {
+   "workspace": "mirag",
+   "original": "qué recomiendan hacer con el cobro de los peajes y para cuándo?",
+   "reformulada": "¿Qué recomendaciones se formulan sobre el régimen tarifario y los plazos del contrato de concesión «Ruta Costera Sur» en el informe jurídico del tramo Puerto Arena – Caleta Brava?",
+   "crudo": "¿Qué recomendaciones se formulan sobre el régimen tarifario y los plazos del contrato de concesión «Ruta Costera Sur» en el informe jurídico del tramo Puerto Arena – Caleta Brava?",
+   "segundos": 1.58,
+   "error": ""
+  },
+  "ING-42": {
+   "workspace": "mirag",
+   "original": "a quién le encargaron lo del free flow y en cuánto tiempo?",
+   "reformulada": "¿A quién se le encomendó la implementación del sistema de peaje libre flujo en el contrato de concesión «Ruta Costera Sur» y cuál fue el plazo establecido para su ejecución?",
+   "crudo": "¿A quién se le encomendó la implementación del sistema de peaje libre flujo en el contrato de concesión «Ruta Costera Sur» y cuál fue el plazo establecido para su ejecución?",
+   "segundos": 1.7,
+   "error": ""
+  },
+  "ING-43": {
+   "workspace": "mirag",
+   "original": "quién firmó el informe de la concesión y cuándo?",
+   "reformulada": "¿Quién fue el firmante del informe jurídico del contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava, y en qué fecha se emitió?",
+   "crudo": "¿Quién fue el firmante del informe jurídico del contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava, y en qué fecha se emitió?",
+   "segundos": 1.57,
+   "error": ""
+  },
+  "ING-44": {
+   "workspace": "mirag",
+   "original": "ley de mata?",
+   "reformulada": "¿Qué establece el procedimiento operativo PO-FLS-014 sobre el sangrado de mata y escoria del horno flash de la Fundición Los Arrayanes?",
+   "crudo": "¿Qué establece el procedimiento operativo PO-FLS-014 sobre el sangrado de mata y escoria del horno flash de la Fundición Los Arrayanes?",
+   "segundos": 1.51,
+   "error": ""
+  },
+  "ING-45": {
+   "workspace": "mirag",
+   "original": "cuánta gente puede haber arriba de la plataforma cuando se sangra?",
+   "reformulada": "¿Cuál es el número máximo de personas permitidas en la plataforma durante el sangrado de mata y escoria del horno flash según el procedimiento operativo PO-FLS-014 de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuál es el número máximo de personas permitidas en la plataforma durante el sangrado de mata y escoria del horno flash según el procedimiento operativo PO-FLS-014 de la Fundición Los Arrayanes?",
+   "segundos": 1.66,
+   "error": ""
+  },
+  "ING-46": {
+   "workspace": "mirag",
+   "original": "consumo de oxígeno del trimestre pasado?",
+   "reformulada": "¿Cuál fue el consumo de oxígeno en el tercer trimestre de 2026 según la presentación de indicadores de proceso de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuál fue el consumo de oxígeno en el tercer trimestre de 2026 según la presentación de indicadores de proceso de la Fundición Los Arrayanes?",
+   "segundos": 1.48,
+   "error": ""
+  },
+  "ING-47": {
+   "workspace": "mirag",
+   "original": "hubo accidentes en la fundición el trimestre pasado? algún fallecido?",
+   "reformulada": "¿Hubo accidentes laborales o fallecimientos en la Fundición Los Arrayanes durante el tercer trimestre de 2026?",
+   "crudo": "¿Hubo accidentes laborales o fallecimientos en la Fundición Los Arrayanes durante el tercer trimestre de 2026?",
+   "segundos": 1.39,
+   "error": ""
+  },
+  "ING-48": {
+   "workspace": "mirag",
+   "original": "cuántos reconocimientos por semana tiene que dar cada supervisor?",
+   "reformulada": "¿Cuál es la frecuencia semanal de reconocimientos que debe otorgar cada supervisor según el acta del taller de liderazgo para supervisores de la Fundición Los Arrayanes?",
+   "crudo": "¿Cuál es la frecuencia semanal de reconocimientos que debe otorgar cada supervisor según el acta del taller de liderazgo para supervisores de la Fundición Los Arrayanes?",
+   "segundos": 1.55,
+   "error": ""
+  },
+  "ING-49": {
+   "workspace": "obsidian",
+   "original": "por qué elegimos rabbit y no kafka?",
+   "reformulada": "¿Cuáles fueron las alternativas evaluadas y las razones para elegir RabbitMQ sobre Kafka en la decisión de arquitectura ADR-007 del Proyecto Cóndor?",
+   "crudo": "¿Cuáles fueron las alternativas evaluadas y las razones para elegir RabbitMQ sobre Kafka en la decisión de arquitectura ADR-007 del Proyecto Cóndor?",
+   "segundos": 1.39,
+   "error": ""
+  },
+  "ING-50": {
+   "workspace": "mirag",
+   "original": "cuántos vehículos al día se proyectan para la ruta costera?",
+   "reformulada": "¿Cuál es la proyección de tráfico vehicular diario para el tramo Puerto Arena – Caleta Brava del contrato de concesión «Ruta Costera Sur»?",
+   "crudo": "¿Cuál es la proyección de tráfico vehicular diario para el tramo Puerto Arena – Caleta Brava del contrato de concesión «Ruta Costera Sur»?",
+   "segundos": 1.5,
+   "error": ""
+  },
+  "ING-51": {
+   "workspace": "mirag",
+   "original": "por qué al final la concesión quedó en 30 años?",
+   "reformulada": "¿Cuál fue la justificación para establecer una duración de 30 años en el contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava?",
+   "crudo": "¿Cuál fue la justificación para establecer una duración de 30 años en el contrato de concesión «Ruta Costera Sur», tramo Puerto Arena – Caleta Brava?",
+   "segundos": 1.55,
+   "error": ""
+  }
+ }
+}

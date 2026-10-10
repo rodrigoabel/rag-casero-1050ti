@@ -1,0 +1,12 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FORM-05a;2;PARCIAL;PARCIAL;"Falta la fecha de la PSP; detalle falso: «garantía de explotación: vigencia desde PSP + 12 meses» (es el plazo de la concesión + 12 meses)"
+FORM-08a;1;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+FORM-08a;2;FALLA;OK;"Define bien la sigla; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+ING-11;1;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-11;2;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-12;2;OK;OK_CON_RUIDO;"Detalle falso: pone Comunicación interna (3,1) como segunda peor; es Carga de trabajo (2,9). Mezcla el 2,6 del área con la dimensión"
+ING-13;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-13;2;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-18;1;FALLA;ALUCINA;"No da el eNPS (la reformulación lo quitó) y afirma «Liderazgo: 4,1 (mejor)»: 4,1 es la refinería; la dimensión Liderazgo tiene 3,8"
+ING-29;1;FALLA;ALUCINA;"Falso para la pregunta del usuario: el reformulador la llevó al procedimiento del horno (registros: 5 años); los logs de auditoría de Cóndor se guardan 400 días"
+ING-29;2;FALLA;ALUCINA;"Falso para la pregunta del usuario: el reformulador la llevó al procedimiento del horno (registros: 5 años); los logs de auditoría de Cóndor se guardan 400 días"

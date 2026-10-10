@@ -1,0 +1,9 @@
+{
+ "descripcion": "Prompt del sistema en español con reglas contra H15, rechazo en español y temperatura 0,2",
+ "workspaces": ["prueba", "notas-obsidian"],
+ "cambios": {
+  "openAiPrompt": "@E1_prompt_sistema_es.txt",
+  "openAiTemp": 0.2,
+  "queryRefusalResponse": "@E1_respuesta_rechazo_es.txt"
+ }
+}

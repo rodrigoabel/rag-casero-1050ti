@@ -1,0 +1,6 @@
+modelo;familia;cuantizacion;capas_gpu;vram_gb;lectura_tok_s;generacion_tok_s;nota
+qwen3.5:2b;Qwen 3.5 2B;Q8_0;todas;3.1;855;36;modelo original del RAG
+qwen3.5:4b-texto-gpu;Qwen 3.5 4B;Q4_K_M;todas;3.2;339;20;sin proyector de visión y num_gpu 99
+gemma4:e2b-texto;Gemma 4 E2B;Q4_K_M;36/36;2.0;496;51;sin proyector de visión
+gemma4:e4b-texto;Gemma 4 E4B;Q4_K_M;36/43;3.2;275;28;sin proyector de visión, repartido con la CPU
+gemma4:e4b-texto-gpu;Gemma 4 E4B;Q4_K_M;43/43;3.7;289;42;sin proyector de visión y num_gpu 99 (elegido)

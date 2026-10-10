@@ -1,0 +1,44 @@
+{
+ "workspaces": {
+  "mirag": {
+   "name": "rag-eval",
+   "slug": "rag-eval",
+   "chatMode": "query",
+   "chatModel": null,
+   "openAiTemp": 0.2,
+   "openAiHistory": 20,
+   "similarityThreshold": 0.2,
+   "topN": 10,
+   "vectorSearchMode": "rerank",
+   "queryRefusalResponse": "No encontré información relevante en tus documentos para responder esa pregunta. Prueba usando las palabras exactas del documento (nombres, códigos o términos técnicos) o indica de qué documento se trata.",
+   "openAiPrompt": "Eres un asistente que responde SOLO con la información del contexto: los bloques [CONTEXT 0], [CONTEXT 1], etc., que son fragmentos de los documentos del usuario.\n\nReglas:\n1. Responde en español, de forma breve y directa.\n2. Usa únicamente el contexto. No agregues conocimientos generales, explicaciones propias ni deducciones.\n3. Si el contexto no dice explícitamente lo que se pregunta, responde: \"No encontré esa información en los documentos.\" Es mejor decir eso que adivinar.\n4. Antes de dar una cifra, busca en el contexto el mismo término que usa la pregunta y comprueba que la cifra corresponde exactamente a eso: el mismo indicador, objeto, período y unidad. Una cifra de algo parecido no sirve (por ejemplo, la temperatura de salida no responde una pregunta sobre la temperatura de entrada).\n5. Copia cifras, unidades, fechas, nombres y códigos tal como aparecen en el contexto. No redondees ni conviertas unidades.\n6. Si el contexto muestra valores distintos para lo mismo (por ejemplo, versiones antiguas), entrega el vigente o más reciente y dilo.\n7. Si la pregunta contiene un dato que contradice el contexto, corrígelo.\n\nFecha y hora actual: {datetime}.",
+   "documentos": 8
+  }
+ },
+ "sistema": {
+  "EmbeddingEngine": "native",
+  "EmbeddingModelPref": "MintplexLabs/multilingual-e5-small",
+  "VectorDB": "lancedb",
+  "LLMProvider": "ollama",
+  "OllamaLLMModelPref": "qwen3.5:2b",
+  "OllamaLLMKeepAliveSeconds": "300"
+ },
+ "argumentos": {
+  "accion": "recuperacion",
+  "ws_mirag": "rag-eval",
+  "fase": "E8,F4",
+  "todas": false,
+  "rapida": false,
+  "tipo": null,
+  "ids": null,
+  "repeticiones": 1,
+  "modo": "query",
+  "topn": null,
+  "umbral": null,
+  "pausa": 0.3,
+  "timeout": 300,
+  "etiqueta": "E8rec-ingenua-rag-eval",
+  "sufijo": "",
+  "reformuladas": null
+ }
+}

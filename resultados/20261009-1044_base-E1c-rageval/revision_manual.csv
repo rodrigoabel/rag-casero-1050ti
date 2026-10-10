@@ -1,0 +1,11 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+SPR-05;2;FALLA;ALUCINA;«lotes con 6.0 bugs»: el gráfico llegó y dice despachos (8)
+SPR-08;1;FALLA;ALUCINA;«38%»: lo correcto es 38/45 ≈ 84 %
+SPR-08;2;FALLA;ALUCINA;Igual que la repetición 1
+CRS-01;1;PARCIAL;ALUCINA;Vencimiento correcto, pero inventa cómo se cuenta («desde el día siguiente al vencimiento del plazo de tramitación del Convenio…»)
+CRS-07;2;FALLA;ALUCINA;«380 UTM.»: es lo acumulado, no el umbral (1.200 UTM en 12 meses)
+CRS-16;1;FALLA;PARCIAL;Da el vencimiento (marzo de 2056), no el plazo (32 años); mismo criterio que CRS-01
+CRS-16;2;FALLA;PARCIAL;Igual que la repetición 1
+FORM-08a;1;FALLA;OK;A «¿qué es el ITC?» responde con la definición correcta; la esperada era el monto de la pregunta mejorada
+FORM-08a;2;FALLA;OK;Igual que la repetición 1
+FORM-06a;2;OK;OK_CON_RUIDO;Dato correcto, pero inventa «una caída del 1,8 % en la captura de azufre» (fue de 96,1 a 95,2: 0,9 puntos)

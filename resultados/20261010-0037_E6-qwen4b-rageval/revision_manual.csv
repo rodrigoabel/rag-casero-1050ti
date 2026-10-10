@@ -1,0 +1,9 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+CRS-16;1;FALLA;PARCIAL;Da el vencimiento (marzo de 2056), no el plazo (32 años), y en castellano (criterio de la línea base)
+FORM-04a;1;FALLA;OK;A «¿cómo está el clima?» resume bien: eNPS +12, peor Reconocimiento (2,7), mejor Compromiso (4,0); la esperada «3,1» es un artefacto del banco (criterio de E8)
+FORM-04a;2;FALLA;OK;Igual que la repetición 1
+FORM-08a;1;FALLA;OK;A «¿qué es el ITC?» responde con la definición correcta (criterio de la línea base)
+FUN-08;1;FALLA;OK;Calcula bien el promedio: 13.933 t (13.700 + 14.300 + 13.800 = 41.800, / 3); el 2b decía 13.800
+FUN-08;2;FALLA;OK;Igual que la repetición 1
+SPR-08;1;FALLA;ALUCINA;«82,2 %» es un cálculo falso: 38/45 ≈ 84,4 % (da bien los 38 de 45 puntos)
+SPR-08;2;FALLA;ALUCINA;Igual que la repetición 1

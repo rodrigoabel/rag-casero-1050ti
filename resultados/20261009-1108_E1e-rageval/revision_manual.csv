@@ -1,0 +1,24 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+PRO-01;1;FALLA;PARCIAL;Da el rango correcto (60–64 % Cu), pero no el objetivo (62 %)
+PRO-01;2;FALLA;PARCIAL;Igual que la repetición 1
+CRS-01;1;PARCIAL;ALUCINA;Vencimiento correcto, pero inventa que se cuenta «desde la publicación del decreto de adjudicación» (es desde la PSP)
+CRS-01;2;PARCIAL;ALUCINA;Igual: «desde la publicación del Decreto Supremo MOP N° 4.417 de 2019»
+CRS-12;1;FALLA;ALUCINA;«32 años para completar la obra»: son 48 meses; además inventa «Índice Técnico de Concesión»
+CRS-12;2;FALLA;ALUCINA;«32 años para construir la obra»: son 48 meses
+CRS-16;1;FALLA;PARCIAL;Da el vencimiento (marzo de 2056), no el plazo (32 años); mismo criterio que CRS-01
+CRS-16;2;FALLA;PARCIAL;Igual que la repetición 1
+X-02;1;PARCIAL;ALUCINA;«La tasa de respuesta… para el área de convertidores fue de 2,6»: 2,6 es un puntaje; la tasa es 71 %
+FORM-03a;1;FALLA;PARCIAL;A «cuéntame del horno» describe bien el procedimiento, pero no da el rango de temperatura buscado
+FORM-03a;2;FALLA;PARCIAL;Igual que la repetición 1
+FORM-08a;1;FALLA;OK;A «¿qué es el ITC?» responde con la definición correcta; la esperada era el monto de la pregunta mejorada
+FORM-08a;2;FALLA;OK;Igual que la repetición 1
+PRO-10;1;OK;ALUCINA;«se deben mantener al menos 2 personas»: el procedimiento dice como MÁXIMO 2 (invierte un límite de seguridad)
+CON-10;1;OK;ALUCINA;«si no está disponible, se pueden emitir certificados fallidos»: el documento dice que NO se pueden emitir
+CRS-02;1;OK;OK_CON_RUIDO;Monto correcto, pero le atribuye las «10 boletas de UF 25.000», que son de la garantía de construcción
+CRS-06;1;OK;OK_CON_RUIDO;Inventa «Unidades Tributarias Mexicanas»
+CLI-09;1;OK;OK_CON_RUIDO;«2,7 en la refinería»: 2,7 es el promedio de la dimensión, no de la refinería
+ACT-04;2;OK;OK_CON_RUIDO;Atribuye el acuerdo a «la reunión del 1 de octubre», cuando se tomó en el taller del 3 de septiembre
+X-04;1;OK;PARCIAL;Convertidores es correcto, pero lo cruza con el taller, no con la mantención de noviembre
+X-04;2;OK;PARCIAL;Igual, y agrega que convertidores «participará en la próxima sesión» (no consta)
+FORM-07b;1;OK;PARCIAL;Historias correctas, pero dice que ambas están «En curso» (CON-325 está terminada)
+FORM-07b;2;OK;PARCIAL;Historias correctas, pero dice que ambas están «Terminada» (CON-318 está en curso)

@@ -1,0 +1,8 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FORM-05a;1;OK;PARCIAL;"Falta la fecha de la PSP; detalle falso: «garantía de explotación: vigencia desde PSP + 12 meses» (es el plazo de la concesión + 12 meses)"
+FORM-08a;1;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+FORM-08a;2;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+ING-11;1;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-11;2;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-13;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-13;2;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)

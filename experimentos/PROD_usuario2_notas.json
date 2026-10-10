@@ -1,0 +1,11 @@
+{"descripcion": "Producción: notas-usuario2 (notas de Obsidian de Usuario2) igual que notas-obsidian: prompt E1c, temp 0,2 y mensaje de rechazo; se mantienen topN 4, umbral 0,25 y búsqueda sin reranker",
+ "workspaces": ["notas-usuario2"],
+ "cambios": {
+  "openAiPrompt": "@E1c_prompt_sistema_es.txt",
+  "openAiTemp": 0.2,
+  "queryRefusalResponse": "@E1_respuesta_rechazo_es.txt",
+  "topN": 4,
+  "similarityThreshold": 0.25,
+  "vectorSearchMode": "default"
+ }
+}

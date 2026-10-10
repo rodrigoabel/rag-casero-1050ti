@@ -1,0 +1,9 @@
+{
+ "descripcion": "Como E1a, pero el modelo debe copiar la frase que respalda la respuesta o decir que no la encontró",
+ "workspaces": ["prueba", "notas-obsidian"],
+ "cambios": {
+  "openAiPrompt": "@E1b_prompt_sistema_es_cita.txt",
+  "openAiTemp": 0.2,
+  "queryRefusalResponse": "@E1_respuesta_rechazo_es.txt"
+ }
+}

@@ -1,0 +1,9 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+SPR-08;1;FALLA;PARCIAL;No calcula el porcentaje: da 38 puntos de 45 comprometidos (≈ 84 %)
+SPR-08;2;FALLA;PARCIAL;Igual que la repetición 1
+FUN-08;1;FALLA;PARCIAL;Lista bien los tres meses (13.700, 14.300 y 13.800 t), pero no calcula el promedio (13.933 t)
+FUN-08;2;FALLA;PARCIAL;Igual que la repetición 1
+CRS-06;1;PARCIAL;FALLA;Da la multa por baches (10 UTM por bache y día), no la del índice de serviciabilidad (40 UTM por día y tramo). Sin reformular, Gemma respondía bien
+CRS-06;2;PARCIAL;FALLA;Igual que la repetición 1
+CLI-09;1;OK;PARCIAL;Reconocimiento (2,7) y Compromiso (4,0) bien, pero cambia convertidores como área crítica por el eNPS. Sin reformular, Gemma lo mencionaba
+CLI-09;2;OK;PARCIAL;Igual que la repetición 1

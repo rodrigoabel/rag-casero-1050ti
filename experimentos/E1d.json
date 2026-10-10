@@ -1,0 +1,9 @@
+{
+ "descripcion": "E1c ajustado: frase completa que diga a qué corresponde la cifra, cálculos simples mostrando la operación, acepta la información dicha con otras palabras y corrige las premisas falsas en vez de responder «No encontré». Ejemplo genérico, no tomado del banco de preguntas",
+ "workspaces": ["prueba", "notas-obsidian"],
+ "cambios": {
+  "openAiPrompt": "@E1d_prompt_sistema_es.txt",
+  "openAiTemp": 0.2,
+  "queryRefusalResponse": "@E1_respuesta_rechazo_es.txt"
+ }
+}

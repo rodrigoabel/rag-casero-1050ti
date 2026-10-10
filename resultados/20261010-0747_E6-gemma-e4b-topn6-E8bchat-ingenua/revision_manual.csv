@@ -1,0 +1,4 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+ING-43;1;FALLA;ALUCINA;Fecha falsa: da la fecha de carga del archivo en AnythingLLM («publicado el 10/9/2026, 3:42:16 AM») como fecha del informe y nombra al estudio, no al firmante (Sebastián Merino Lagos, 5/9/2026). Con topN 6 no llega el fragmento de la firma
+ING-43;2;FALLA;ALUCINA;Igual que la repetición 1
+ING-43;3;FALLA;ALUCINA;Igual que la repetición 1

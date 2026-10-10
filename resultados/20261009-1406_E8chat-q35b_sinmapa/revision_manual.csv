@@ -1,0 +1,10 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FORM-05a;1;OK;OK_CON_RUIDO;Detalle falso: invierte la posición de la Concesionaria (sostiene que SÍ fue fuerza mayor no cubierta)
+FORM-06a;2;OK;OK_CON_RUIDO;Detalle falso: «caída del 0,8 %» (de 96,1 a 95,2 son 0,9 puntos)
+ING-11;1;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-11;2;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-13;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-13;2;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta el área)
+ING-17;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta cuándo)
+ING-26;1;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta qué mantención)
+ING-26;2;PARCIAL;OK;La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (solo pregunta qué mantención)

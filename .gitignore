@@ -1,0 +1,12 @@
+# Entorno de Python y modelos descargados para las simulaciones
+.venv/
+.modelos/
+__pycache__/
+*.pyc
+
+# Texto convertido que genera verificar_corpus.py
+vista_previa_conversion/
+
+# Respuestas crudas de la API (grandes; traen el texto de los fragmentos)
+resultados/*/chat.jsonl
+resultados/*/recuperacion.jsonl

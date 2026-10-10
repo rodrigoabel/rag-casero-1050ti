@@ -1,0 +1,9 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+SPR-05;1;OK;PARCIAL;«Módulos: lotes y despachos»: no dice cuál tuvo más bugs (despachos, 8)
+SPR-08;1;FALLA;ALUCINA;«38%»: lo correcto es 38/45 ≈ 84 %
+SPR-08;2;FALLA;ALUCINA;Igual que la repetición 1
+CRS-07;1;FALLA;ALUCINA;«380 UTM.»: es lo acumulado, no el umbral (1.200 UTM en 12 meses)
+CRS-07;2;FALLA;ALUCINA;Igual que la repetición 1
+CRS-16;1;FALLA;PARCIAL;Da el vencimiento (marzo de 2056), no el plazo (32 años); criterio de la línea base
+FUN-08;2;FALLA;ALUCINA;«13.800 toneladas» como promedio: es septiembre (41.800/3 ≈ 13.933 t)
+CLI-05;2;PARCIAL;PARCIAL;Área correcta (convertidores), pero detalle falso: «(2,7)» es el promedio de la dimensión; convertidores tiene 2,6

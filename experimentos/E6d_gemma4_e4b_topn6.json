@@ -1,0 +1,3 @@
+{"descripcion": "E6d: como E6c (gemma4:e4b-texto-gpu solo en rag-eval), pero con topN 6 en vez de 10: menos fragmentos en el prompt (~2.000 tokens en vez de ~3.400), para acercar la latencia a la meta de 10 s. Se compara con E6c (topN 10) y con el 2b",
+ "workspaces": ["rag-eval"],
+ "cambios": {"chatModel": "gemma4:e4b-texto-gpu", "topN": 6}}

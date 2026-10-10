@@ -1,0 +1,15 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+SPR-05;1;FALLA;ALUCINA;«lotes con 6.0 bugs»: el gráfico llegó y dice despachos (8); mismo error que con MiniLM
+SPR-05;2;FALLA;ALUCINA;«lotes: 6.0»: igual que la repetición 1
+SPR-08;1;FALLA;ALUCINA;«38%»: lo correcto es 38/45 ≈ 84 %
+SPR-08;2;FALLA;ALUCINA;Igual que la repetición 1
+CRS-07;1;FALLA;ALUCINA;«380 UTM.»: es lo acumulado, no el umbral (1.200 UTM en 12 meses)
+CRS-07;2;FALLA;ALUCINA;Igual que la repetición 1
+FUN-08;1;FALLA;ALUCINA;Nuevo con e5 (antes no llegaba el dato): «13.800 toneladas» como promedio; es la cifra de septiembre (lo correcto es 41.800/3 ≈ 13.933 t)
+FUN-08;2;FALLA;ALUCINA;Lista bien los tres meses (13.700, 14.300 y 13.800), pero dice que el promedio es 13.800 t
+CRS-16;1;FALLA;PARCIAL;Da el vencimiento (marzo de 2056), no el plazo (32 años); mismo criterio que CRS-01 en la línea base
+CRS-16;2;FALLA;PARCIAL;Igual que la repetición 1
+FORM-08a;1;FALLA;OK;A «¿qué es el ITC?» responde con la definición correcta; la esperada era el monto de la pregunta mejorada
+FORM-08a;2;FALLA;OK;Igual que la repetición 1
+FORM-05a;1;PARCIAL;PARCIAL;Detalle falso: «Fecha límite PSP: marzo de 2056» (2056 es el vencimiento; la PSP fue el 15/03/2024). Falta el plazo de construcción
+CLI-09;1;OK;OK_CON_RUIDO;Dice que las recomendaciones «se implementaron»; el informe solo las recomienda. Omite compromiso (4,0)

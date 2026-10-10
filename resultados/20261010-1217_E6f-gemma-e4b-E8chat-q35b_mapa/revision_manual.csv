@@ -1,0 +1,8 @@
+﻿id;rep;veredicto_auto;veredicto_manual;nota
+FORM-08a;1;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+FORM-08a;2;FALLA;OK;"Define bien el ITC; la esperada era el monto de la pregunta mejorada (criterio de la línea base)"
+ING-11;1;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-11;2;FALLA;OK;"La pregunta ingenua no pide el detalle extra de la esperada, heredada de su par de la F3 (CLI-02 pide el porcentaje; aquí se pregunta cuánta gente: 214)"
+ING-29;2;FALLA;ALUCINA;"Falso para la pregunta del usuario: el reformulador la llevó al procedimiento del horno (registros: 5 años); los logs de auditoría de Cóndor se guardan 400 días"
+ING-24;1;OK;PARCIAL;Da el valor (95,8 %) y la meta (96,5 %), pero no responde «no» a «cumplimos la meta?» (mismo criterio que FUN-02)
+ING-24;2;OK;PARCIAL;"Da el valor (95,8 %) y la meta (96,5 %), pero no responde «no» a «cumplimos la meta?» (mismo criterio que FUN-02); además llama «meta Q4» a la meta"

@@ -1,0 +1,358 @@
+{
+ "meta": {
+  "fecha": "2026-10-09T12:53:28",
+  "motor": "ollama",
+  "modelo": "qwen3.5:2b",
+  "url": "http://<servidor>:11434",
+  "mapa": false,
+  "hoy": "2026-10-09",
+  "temperatura": 0.2,
+  "sistema": "Tu tarea es reescribir la pregunta de un usuario para buscarla en sus documentos. Con la pregunta reescrita se buscan los fragmentos más parecidos y otro modelo responde con ellos.\n\nReglas:\n1. Conserva exactamente lo que el usuario quiere saber. No agregues datos, cifras, nombres ni supuestos que el usuario no dio.\n2. Si la pregunta da por cierto un dato (por ejemplo, una cifra), no lo afirmes: pregunta por ese dato de forma neutra.\n3. Si la pregunta nombra un documento o un tema, mantenlo.\n4. Usa términos completos y precisos: desarrolla las siglas y corrige la ortografía.\n5. Cambia las fechas relativas por fechas absolutas. Hoy es viernes 9 de octubre de 2026. El mes pasado es septiembre de 2026; el trimestre pasado, el tercer trimestre (Q3) de 2026; el año pasado, 2025.\n6. Si la pregunta ya es clara y completa, cámbiala lo menos posible.\n7. Escribe una sola pregunta, en español, completa y breve. No agregues instrucciones de formato ni frases como «si no aparece, dilo».\n8. Responde solo con la pregunta reescrita, sin comillas ni explicaciones."
+ },
+ "preguntas": {
+  "FORM-01a": {
+   "workspace": "mirag",
+   "original": "¿y el caché?",
+   "reformulada": "¿Y el caché?",
+   "crudo": "¿Y el caché?",
+   "segundos": 0.65,
+   "error": ""
+  },
+  "FORM-02a": {
+   "workspace": "mirag",
+   "original": "multa?",
+   "reformulada": "¿Qué se entiende por multa en el contexto de la normativa vigente?",
+   "crudo": "¿Qué se entiende por multa en el contexto de la normativa vigente?",
+   "segundos": 0.83,
+   "error": ""
+  },
+  "FORM-03a": {
+   "workspace": "mirag",
+   "original": "cuéntame del horno",
+   "reformulada": "¿Podrías contarme más detalles sobre el horno?",
+   "crudo": "¿Podrías contarme más detalles sobre el horno?",
+   "segundos": 0.77,
+   "error": ""
+  },
+  "FORM-04a": {
+   "workspace": "mirag",
+   "original": "¿cómo está el clima?",
+   "reformulada": "¿Cómo está el clima en la ciudad actual?",
+   "crudo": "¿Cómo está el clima en la ciudad actual?",
+   "segundos": 0.72,
+   "error": ""
+  },
+  "FORM-05a": {
+   "workspace": "mirag",
+   "original": "dame todo lo de la concesión",
+   "reformulada": "Dime todo lo relacionado con la concesión.",
+   "crudo": "Dime todo lo relacionado con la concesión.",
+   "segundos": 0.7,
+   "error": ""
+  },
+  "FORM-06a": {
+   "workspace": "mirag",
+   "original": "¿qué pasó con la planta de ácido?",
+   "reformulada": "¿Qué sucedió con la planta de ácido?",
+   "crudo": "¿Qué sucedió con la planta de ácido?",
+   "segundos": 0.71,
+   "error": ""
+  },
+  "FORM-07a": {
+   "workspace": "mirag",
+   "original": "¿quién es Tomás?",
+   "reformulada": "¿Quién es Tomás?",
+   "crudo": "¿Quién es Tomás?",
+   "segundos": 0.55,
+   "error": ""
+  },
+  "FORM-08a": {
+   "workspace": "mirag",
+   "original": "¿qué es el ITC?",
+   "reformulada": "¿Qué es el ITC?",
+   "crudo": "¿Qué es el ITC?",
+   "segundos": 0.61,
+   "error": ""
+  },
+  "ING-01": {
+   "workspace": "mirag",
+   "original": "cuanto dura la concesion?",
+   "reformulada": "¿Cuánto tiempo dura la concesión?",
+   "crudo": "¿Cuánto tiempo dura la concesión?",
+   "segundos": 0.71,
+   "error": ""
+  },
+  "ING-02": {
+   "workspace": "mirag",
+   "original": "monto garantia explotacion",
+   "reformulada": "¿Cuál es el monto de la garantía para la explotación?",
+   "crudo": "¿Cuál es el monto de la garantía para la explotación?",
+   "segundos": 0.77,
+   "error": ""
+  },
+  "ING-03": {
+   "workspace": "mirag",
+   "original": "q multa hay si no cumplen el estado del pavimento",
+   "reformulada": "¿Cuál es la multa aplicable si no se cumplen las condiciones de estado del pavimento?",
+   "crudo": "¿Cuál es la multa aplicable si no se cumplen las condiciones de estado del pavimento?",
+   "segundos": 0.96,
+   "error": ""
+  },
+  "ING-04": {
+   "workspace": "mirag",
+   "original": "cuándo pasa a ser incumplimiento grave?",
+   "reformulada": "¿En qué fecha o momento específico se considera que un incumplimiento constituye un incumplimiento grave?",
+   "crudo": "¿En qué fecha o momento específico se considera que un incumplimiento constituye un incumplimiento grave?",
+   "segundos": 1.04,
+   "error": ""
+  },
+  "ING-05": {
+   "workspace": "mirag",
+   "original": "qué pasó con el derrumbe del km 47",
+   "reformulada": "¿Qué sucedió con el derrumbe del km 47?",
+   "crudo": "¿Qué sucedió con el derrumbe del km 47?",
+   "segundos": 0.85,
+   "error": ""
+  },
+  "ING-06": {
+   "workspace": "mirag",
+   "original": "cuánto tienen para terminar las obras?",
+   "reformulada": "¿Cuánto dinero tienen asignado para finalizar las obras?",
+   "crudo": "¿Cuánto dinero tienen asignado para finalizar las obras?",
+   "segundos": 0.79,
+   "error": ""
+  },
+  "ING-07": {
+   "workspace": "mirag",
+   "original": "por qué le dieron 50 años a la concesionaria?",
+   "reformulada": "¿Por qué le dieron 50 años a la concesionaria?",
+   "crudo": "¿Por qué le dieron 50 años a la concesionaria?",
+   "segundos": 0.87,
+   "error": ""
+  },
+  "ING-08": {
+   "workspace": "mirag",
+   "original": "hasta cuándo pidieron la prórroga del convenio?",
+   "reformulada": "hasta cuándo se solicitó la prórroga del convenio.",
+   "crudo": "hasta cuándo se solicitó la prórroga del convenio.",
+   "segundos": 0.79,
+   "error": ""
+  },
+  "ING-09": {
+   "workspace": "mirag",
+   "original": "cuándo nos volvemos a juntar por la concesión?",
+   "reformulada": "¿Cuándo nos volvemos a juntar por la concesión?",
+   "crudo": "¿Cuándo nos volvemos a juntar por la concesión?",
+   "segundos": 0.83,
+   "error": ""
+  },
+  "ING-10": {
+   "workspace": "mirag",
+   "original": "cuánto se demora el panel en recomendar?",
+   "reformulada": "¿Cuánto tiempo tarda el panel en recomendar?",
+   "crudo": "¿Cuánto tiempo tarda el panel en recomendar?",
+   "segundos": 0.77,
+   "error": ""
+  },
+  "ING-11": {
+   "workspace": "mirag",
+   "original": "cuánta gente contestó la encuesta?",
+   "reformulada": "¿Cuántos participantes respondieron la encuesta?",
+   "crudo": "¿Cuántos participantes respondieron la encuesta?",
+   "segundos": 0.71,
+   "error": ""
+  },
+  "ING-12": {
+   "workspace": "mirag",
+   "original": "qué salió peor en clima?",
+   "reformulada": "¿Qué salió peor en clima?",
+   "crudo": "¿Qué salió peor en clima?",
+   "segundos": 0.62,
+   "error": ""
+  },
+  "ING-13": {
+   "workspace": "mirag",
+   "original": "qué área está peor con el reconocimiento?",
+   "reformulada": "¿Qué área está peor con el reconocimiento?",
+   "crudo": "¿Qué área está peor con el reconocimiento?",
+   "segundos": 0.67,
+   "error": ""
+  },
+  "ING-14": {
+   "workspace": "mirag",
+   "original": "qué proponen para que la gente se sienta reconocida?",
+   "reformulada": "¿Qué acciones o estrategias específicas proponen para que la gente se sienta reconocida?",
+   "crudo": "¿Qué acciones o estrategias específicas proponen para que la gente se sienta reconocida?",
+   "segundos": 0.99,
+   "error": ""
+  },
+  "ING-15": {
+   "workspace": "mirag",
+   "original": "por qué no aparecen algunos equipos en el informe?",
+   "reformulada": "¿Por qué no aparecen algunos equipos en el informe?",
+   "crudo": "¿Por qué no aparecen algunos equipos en el informe?",
+   "segundos": 0.73,
+   "error": ""
+  },
+  "ING-16": {
+   "workspace": "mirag",
+   "original": "cuántos vinieron al taller?",
+   "reformulada": "¿Cuántos participantes asistieron al taller?",
+   "crudo": "¿Cuántos participantes asistieron al taller?",
+   "segundos": 0.75,
+   "error": ""
+  },
+  "ING-17": {
+   "workspace": "mirag",
+   "original": "cuándo es la próxima sesión del taller?",
+   "reformulada": "¿Cuál es la fecha exacta de la próxima sesión del taller?",
+   "crudo": "¿Cuál es la fecha exacta de la próxima sesión del taller?",
+   "segundos": 0.82,
+   "error": ""
+  },
+  "ING-18": {
+   "workspace": "mirag",
+   "original": "y el enps?",
+   "reformulada": "¿Y el ENPS?",
+   "crudo": "¿Y el ENPS?",
+   "segundos": 0.58,
+   "error": ""
+  },
+  "ING-19": {
+   "workspace": "mirag",
+   "original": "temperatura escoria?",
+   "reformulada": "¿Qué temperatura alcanza la escoria?",
+   "crudo": "¿Qué temperatura alcanza la escoria?",
+   "segundos": 0.64,
+   "error": ""
+  },
+  "ING-20": {
+   "workspace": "mirag",
+   "original": "a qué distancia hay que pararse de la canaleta cuando se sangra?",
+   "reformulada": "a qué distancia hay que pararse de la canaleta cuando se sangra?",
+   "crudo": "a qué distancia hay que pararse de la canaleta cuando se sangra?",
+   "segundos": 0.93,
+   "error": ""
+  },
+  "ING-21": {
+   "workspace": "mirag",
+   "original": "qué hago si se perfora el crisol?",
+   "reformulada": "¿Qué hago si se perfora el crisol?",
+   "crudo": "¿Qué hago si se perfora el crisol?",
+   "segundos": 0.74,
+   "error": ""
+  },
+  "ING-22": {
+   "workspace": "mirag",
+   "original": "con cuánta presión va el oxígeno para abrir la piquera?",
+   "reformulada": "¿Con cuánta presión de oxígeno se requiere para abrir la piquera?",
+   "crudo": "¿Con cuánta presión de oxígeno se requiere para abrir la piquera?",
+   "segundos": 0.94,
+   "error": ""
+  },
+  "ING-23": {
+   "workspace": "mirag",
+   "original": "cómo nos fue en recuperación el trimestre pasado?",
+   "reformulada": "¿Cómo fue la recuperación en el tercer trimestre de 2026?",
+   "crudo": "¿Cómo fue la recuperación en el tercer trimestre de 2026?",
+   "segundos": 0.89,
+   "error": ""
+  },
+  "ING-24": {
+   "workspace": "mirag",
+   "original": "cumplimos la meta de azufre?",
+   "reformulada": "¿Cumplimos la meta de azufre?",
+   "crudo": "¿Cumplimos la meta de azufre?",
+   "segundos": 0.73,
+   "error": ""
+  },
+  "ING-25": {
+   "workspace": "mirag",
+   "original": "cuántos ánodos se hicieron en agosto?",
+   "reformulada": "¿Cuántos ánodos se hicieron en agosto de 2026?",
+   "crudo": "¿Cuántos ánodos se hicieron en agosto de 2026?",
+   "segundos": 0.92,
+   "error": ""
+  },
+  "ING-26": {
+   "workspace": "mirag",
+   "original": "qué mantención viene en noviembre?",
+   "reformulada": "¿Qué mantenimiento viene en noviembre?",
+   "crudo": "¿Qué mantenimiento viene en noviembre?",
+   "segundos": 0.61,
+   "error": ""
+  },
+  "ING-27": {
+   "workspace": "mirag",
+   "original": "disponibilidad del flash el trimestre pasado",
+   "reformulada": "¿Cuál es la disponibilidad del flash en el tercer trimestre de 2026?",
+   "crudo": "¿Cuál es la disponibilidad del flash en el tercer trimestre de 2026?",
+   "segundos": 0.95,
+   "error": ""
+  },
+  "ING-28": {
+   "workspace": "mirag",
+   "original": "puerto del gateway?",
+   "reformulada": "¿Qué información específica sobre el puerto del gateway necesitas buscar en tus documentos?",
+   "crudo": "¿Qué información específica sobre el puerto del gateway necesitas buscar en tus documentos?",
+   "segundos": 0.87,
+   "error": ""
+  },
+  "ING-29": {
+   "workspace": "mirag",
+   "original": "cuánto se guardan los logs de auditoría?",
+   "reformulada": "¿En qué fecha exacta se guardan los logs de auditoría?",
+   "crudo": "¿En qué fecha exacta se guardan los logs de auditoría?",
+   "segundos": 0.86,
+   "error": ""
+  },
+  "ING-30": {
+   "workspace": "mirag",
+   "original": "cobertura del sprint?",
+   "reformulada": "¿Cuál es el estado de cobertura del sprint?",
+   "crudo": "¿Cuál es el estado de cobertura del sprint?",
+   "segundos": 0.7,
+   "error": ""
+  },
+  "ING-31": {
+   "workspace": "obsidian",
+   "original": "a qué hora quedó el backup de la base?",
+   "reformulada": "¿A qué hora quedó el backup de la base?",
+   "crudo": "¿A qué hora quedó el backup de la base?",
+   "segundos": 0.74,
+   "error": ""
+  },
+  "ING-32": {
+   "workspace": "obsidian",
+   "original": "cuánta gente cabe en la sala ámbar?",
+   "reformulada": "¿Cuánta gente cabe en la sala ámbar?",
+   "crudo": "¿Cuánta gente cabe en la sala ámbar?",
+   "segundos": 0.77,
+   "error": ""
+  },
+  "ING-33": {
+   "workspace": "mirag",
+   "original": "cuánto cuesta cóndor?",
+   "reformulada": "¿Cuál es el precio actual del cóndor?",
+   "crudo": "¿Cuál es el precio actual del cóndor?",
+   "segundos": 0.74,
+   "error": ""
+  },
+  "ING-34": {
+   "workspace": "mirag",
+   "original": "a cuántos grados se moldean los ánodos?",
+   "reformulada": "¿A cuántos grados se moldean los ánodos?",
+   "crudo": "¿A cuántos grados se moldean los ánodos?",
+   "segundos": 0.77,
+   "error": ""
+  },
+  "ING-35": {
+   "workspace": "mirag",
+   "original": "cuánta rotación tuvo la fundición este año?",
+   "reformulada": "¿Cuánta rotación tuvo la fundición en 2026?",
+   "crudo": "¿Cuánta rotación tuvo la fundición en 2026?",
+   "segundos": 0.94,
+   "error": ""
+  }
+ }
+}

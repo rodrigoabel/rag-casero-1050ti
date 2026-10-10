@@ -1,0 +1,9 @@
+{
+ "descripcion": "E1c con frase completa que diga a qué corresponde cada cifra (sin ejemplos con datos) y corrección de premisas falsas. Solo en el workspace de pruebas rag-eval",
+ "workspaces": ["rag-eval"],
+ "cambios": {
+  "openAiPrompt": "@E1e_prompt_sistema_es.txt",
+  "openAiTemp": 0.2,
+  "queryRefusalResponse": "@E1_respuesta_rechazo_es.txt"
+ }
+}

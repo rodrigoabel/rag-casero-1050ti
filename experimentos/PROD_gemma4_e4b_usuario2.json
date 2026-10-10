@@ -1,0 +1,3 @@
+{"descripcion": "Producción (10/10): espacio-usuario2 deja de tener qwen3.5:2b fijo y usa el modelo global, que pasa a gemma4:e4b-texto-gpu (E6). Así todos los espacios usan el mismo modelo: dos no caben juntos en la GPU",
+ "workspaces": ["espacio-usuario2"],
+ "cambios": {"chatModel": null}}
