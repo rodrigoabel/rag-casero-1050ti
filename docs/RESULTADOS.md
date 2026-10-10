@@ -168,7 +168,7 @@ La idea: antes de buscar, otro modelo reescribe la pregunta con las reglas de [G
 
 ![Latencia](graficos/latencia.png)
 
-**Decisión: Gemma 4 E4B.** Para un abogado que cita un plazo o un ingeniero que reporta una ley de mata, una cifra falsa cuesta más que unos segundos de espera. Gemma 4 E2B sería la opción si la latencia importara más (8 s), aceptando que a veces inventa.
+**Decisión: Gemma 4 E4B.** Para quien cita un plazo de un contrato o reporta un parámetro de operación, una cifra falsa cuesta más que unos segundos de espera. Gemma 4 E2B sería la opción si la latencia importara más (8 s), aceptando que a veces inventa.
 
 ## E6d y E6e: menos fragmentos
 

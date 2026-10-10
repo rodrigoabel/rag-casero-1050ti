@@ -6,19 +6,19 @@ Lo genera `herramientas/generar_corpus.py` (con `python-docx`, `python-pptx`, `f
 
 ## Los documentos
 
-Cada uno corresponde a una persona de la familia y a un formato que el RAG tiene que leer:
+Cada uno pone a prueba un formato que el RAG tiene que leer:
 
-| Documento | Formato y camino de conversión | Para | Preguntas |
-|---|---|---|---|
-| Informe jurídico de la concesión «Ruta Costera Sur» | PDF digital, con tablas (plazos, tarifas, garantías, multas) | Abogado de concesiones públicas | `CRS-*` (16) |
-| Minuta de reunión de la concesión | Word en la raíz de `Mi_RAG` (lo convierte AnythingLLM) | Abogado | `MIN-*` (4) |
-| Informe de clima laboral 2026, Fundición Los Arrayanes | Word (MarkItDown), con tablas por dimensión y área | Psicólogo organizacional | `CLI-*` (10) |
-| Acta del taller de liderazgo | **PDF escaneado** (imagen con ruido, requiere OCR) | Psicólogo organizacional | `ACT-*` (4) |
-| Procedimiento PO-FLS-014, sangrado del horno flash | PDF digital, con tabla de parámetros | Ingeniero metalurgista del cobre | `PRO-*` (10) |
-| Indicadores de proceso Q3 2026 de la fundición | **PowerPoint**, con tablas, gráfico y notas del orador | Ingeniero metalurgista | `FUN-*` (9) |
-| Especificación técnica de la Plataforma Cóndor | Word (MarkItDown), con historial de versiones | Ingeniero de software | `CON-*` (12) |
-| Retrospectiva del Sprint 42 del equipo Cóndor | **PowerPoint**, con gráfico de bugs y notas del orador | Ingeniero de software | `SPR-*` (8) |
-| Notas de Obsidian (proyecto, decisión de arquitectura, diario, persona, lugar, receta…) | Markdown con frontmatter, callouts, tareas y enlaces | Ingeniero de software | `OBS-*` (12) |
+| Documento | Formato y camino de conversión | Preguntas |
+|---|---|---|
+| Informe jurídico de la concesión «Ruta Costera Sur» | PDF digital, con tablas (plazos, tarifas, garantías, multas) | `CRS-*` (16) |
+| Minuta de reunión de la concesión | Word en la raíz de `Mi_RAG` (lo convierte AnythingLLM) | `MIN-*` (4) |
+| Informe de clima laboral 2026, Fundición Los Arrayanes | Word (MarkItDown), con tablas por dimensión y área | `CLI-*` (10) |
+| Acta del taller de liderazgo | **PDF escaneado** (imagen con ruido, requiere OCR) | `ACT-*` (4) |
+| Procedimiento PO-FLS-014, sangrado del horno flash | PDF digital, con tabla de parámetros | `PRO-*` (10) |
+| Indicadores de proceso Q3 2026 de la fundición | **PowerPoint**, con tablas, gráfico y notas del orador | `FUN-*` (9) |
+| Especificación técnica de la Plataforma Cóndor | Word (MarkItDown), con historial de versiones | `CON-*` (12) |
+| Retrospectiva del Sprint 42 del equipo Cóndor | **PowerPoint**, con gráfico de bugs y notas del orador | `SPR-*` (8) |
+| Notas de Obsidian (proyecto, decisión de arquitectura, diario, persona, lugar, receta…) | Markdown con frontmatter, callouts, tareas y enlaces | `OBS-*` (12) |
 
 **Carpetas** (`corpus/`):
 - `usuario1/Mi_RAG/`: los 8 documentos que se suben al espacio `rag-eval`. `office/` y `pdf/` reproducen las carpetas del servidor, donde cada subcarpeta usa un conversor distinto (hallazgo H9).
@@ -34,7 +34,7 @@ Cada uno corresponde a una persona de la familia y a un formato que el RAG tiene
 |---|---|---|
 | **F2-F3** | 89 (77 sobre documentos y 12 sobre notas) | Preguntas bien hechas: con el nombre del documento y las palabras exactas |
 | **F4** | 16 (8 pares) | La misma pregunta, ingenua y bien hecha («multa?» frente a «según el informe jurídico…, ¿cuál es la multa diaria por…?») |
-| **E8** | 35 | Ingenuas, escritas como en Telegram por cada persona de la familia |
+| **E8** | 35 | Ingenuas, escritas como se escribe en Telegram |
 | **E8b** | 16 | Ingenuas nuevas, escritas **después** de ajustar el reformulador, para detectar sobreajuste |
 | **F6** | 4 | Actualización: la respuesta cambia al reemplazar un documento |
 | **F7** | 3 | Aislamiento: la palabra clave de `usuario2` no debe aparecer en los espacios de `usuario1` |

@@ -268,7 +268,7 @@ class PDF(FPDF):
 
 
 # =====================================================================================
-# D3 - PDF digital (pdf/): Informe jurídico Concesión Ruta Costera Sur (abogado concesiones)
+# D3 - PDF digital (pdf/): Informe jurídico Concesión Ruta Costera Sur (derecho: concesiones)
 # Largo, con muchos plazos y montos parecidos (distractores) y datos clave al final.
 # =====================================================================================
 def pdf_concesion(path: Path):

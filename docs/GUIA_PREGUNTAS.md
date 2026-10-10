@@ -63,26 +63,26 @@ Según <documento o tema>, ¿<pregunta concreta con las palabras del documento>?
 (Opcional, corto) Responde <en una frase / con número y unidad / en N viñetas>.
 ```
 
-## Plantillas por profesión
+## Plantillas por tipo de documento
 
-**Ingeniería de software**
+**Especificaciones técnicas y gestión de proyectos**
 - "En la especificación de <sistema>, ¿qué <puerto, timeout, límite o rol> tiene <componente o endpoint>? Responde con el valor exacto."
 - "Según el ADR-<número>, ¿qué alternativas se descartaron y por qué? Responde en viñetas."
 - "En la retrospectiva del Sprint <N>, ¿qué historias quedaron bloqueadas y por qué?" (las notas del orador también se buscan)
 
-**Derecho: concesiones públicas**
+**Contratos e informes jurídicos**
 - "Según el contrato o informe de <concesión>, ¿cuál es el plazo de <construcción / concesión / garantía> y desde cuándo se cuenta?"
 - "¿Qué multa establece <documento> por <incumplimiento concreto>? Indica monto, unidad y periodicidad."
 - "¿Qué recomienda el informe sobre <tema> y con qué plazo?"
 - Cuidado con los **plazos y montos parecidos**: pide siempre "cuál" (construcción frente a explotación, borrador frente a adjudicado).
 
-**Psicología organizacional**
+**Estudios de clima laboral y actas**
 - "En el estudio de clima <año> de <empresa>, ¿qué puntaje obtuvo la dimensión <nombre exacto>?"
 - "¿Qué área tuvo el puntaje más bajo en <dimensión> y qué explicación da el informe?"
 - "¿Qué acuerdos se tomaron en el taller del <fecha>?" (funciona también con actas escaneadas)
 - Para comparar años o áreas: primero pide cada dato por separado.
 
-**Metalurgia del cobre**
+**Procedimientos e indicadores de planta**
 - "Según el procedimiento <código>, ¿en qué rango debe estar <parámetro> y qué hacer si se sale del rango?"
 - "En los indicadores de <período> de <planta>, ¿cuál fue <recuperación / captura de azufre / disponibilidad> y cuál era la meta?"
 - "¿Qué EPP o distancia de seguridad exige el procedimiento <código> durante <operación>?"

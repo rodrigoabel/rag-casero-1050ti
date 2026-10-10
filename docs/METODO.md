@@ -133,7 +133,7 @@ Para sumarlo a los gráficos, agrega sus tres carpetas a `CONFIGS` (y su nombre 
 
 **Cómo leer la comparación:**
 - **Ruido:** la misma corrida repetida varía ±1 punto en las ingenuas (5 repeticiones del 2B: 67 ± 1 %). Diferencias de 3 puntos o más son reales.
-- **Lo que más pesa es «con algo falso»** (alucinaciones y respuestas correctas con un detalle inventado): para un abogado o un ingeniero, una cifra falsa cuesta más que unos segundos de espera.
+- **Lo que más pesa es «con algo falso»** (alucinaciones y respuestas correctas con un detalle inventado): para quien usa la cifra en su trabajo (un plazo de un contrato, un parámetro de operación), una cifra falsa cuesta más que unos segundos de espera.
 - Después, las **ingenuas** (como pregunta la gente) y los **rechazos correctos** (que no invente cuando el dato no está; 8 preguntas).
 - La **latencia** es la de la repetición 1: en la 2, `llama-server` reutiliza el prompt de su caché y sale más rápida que en el uso real.
 
